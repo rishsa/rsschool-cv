@@ -1,0 +1,15 @@
+body {
+margin : 0;
+padding : 0;
+text-align : left;
+color : #333;
+background : #858563 url(img/bgd.png) repeat-y top center;
+font : 75% "Trebuchet MS", verdana, arial, tahoma, sans-serif;
+}
+#container {
+width : 750px;
+margin : 0 auto;
+padding : 0;
+color : #aaa;
+background : #404040;
+}
