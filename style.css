@@ -13,6 +13,13 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section {
+    display: block;
 }
 
 @font-face {
@@ -21,15 +28,15 @@ body {
 }
 
 .header {
-    border: 1px solid red;
+    background-color: darkgrey;
 }
 
 .main {
-    border: 1px solid red;
+    margin-bottom: auto;
 }
 
 .footer {
-    border: 1px solid red;
+    background-color: darkgray;
 }
 
 .container {
@@ -56,7 +63,33 @@ body {
 }
 
 .section {
-    width: 50%;
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid darkgray;
+}
+.pre {
+    padding: 0;
+    margin: 0;
+}
+
+.code {
+    padding: 0;
+    margin: 0;
+}
+.section-profile-logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 75%;
+}
+
+.footer-rsschool-link {
+    width: 150px;
+    height: 50px;
+    background-image: url("./assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 40px;
 }
 
 @media (max-widch: 768px) {

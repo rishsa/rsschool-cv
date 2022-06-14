@@ -43,7 +43,7 @@
     <main class="main">
         <div class="container main-container">
             <section class="section" id="profile">
-                <img src="avatar.jpg" alt="section-profile-logo">
+                <img src="avatar.jpg" alt="avatar" class="section-profile-logo">
                 <h1 class="section-title">
                     Rishat Salayev
                 </h1>
@@ -90,14 +90,14 @@
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <pre class="pre">
+                <p class="pre">
                     <code class="code">
                         from collections import Counter
                         def anagrams(str1, str2):
                             return Counter(str1) == Counter(str2)
                         anagrams("abc1", "1bac") # True
                     </code>
-                </pre>
+                </p>
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
@@ -107,18 +107,32 @@
                 </ul>
             </section>
             <section class="section" id="projects">
-                <h2 class="section-title"></h2>
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a href="https://github.com/rishsa/rsschool-cv/tree/gh-pages">CV2</a>
+                    </li>
+                    <li class="section-item">
+                        <a href="https://github.com/rishsa/rsschool-cv/tree/rsschool-cv-html">CV3</a>
+                    </li>
+                </ul>
             </section>
             <section class="section" id="education">
-                <h2 class="section-title"></h2>
+                <h2 class="section-title">Education</h2>
+                <p class="section-education">Kalashnikov Izhevsk State Technical University</p>
             </section>
-            <section class="section" id="languages">
-                <h2 class="section-title"></h2>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p class="section-languages">A1-Beginner</p>
             </section>
         </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container">
+            <p class="footer-p">© 2022</p>
+            <a href="https://github.com/rishsa" class="footer-github-link">rishsa</a>
+            <a href="https://rs.school/js/" class="footer-rsschool-link">_____</a>
+        </div>
     </footer>
 </body>
 </html>
