@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section {
+    display: block;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("assets/fonts/Ubuntu-Regular.ttf");
+}
+
+.header {
+    background-color: darkgrey;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.footer {
+    background-color: darkgray;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid darkgray;
+}
+.pre {
+    padding: 0;
+    margin: 0;
+}
+
+.code {
+    padding: 0;
+    margin: 0;
+}
+.section-profile-logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 75%;
+}
+
+.footer-rsschool-link {
+    width: 150px;
+    height: 50px;
+    background-image: url("./assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 40px;
+}
+
+@media (max-widch: 768px) {
+    .section {
+        width: 100%;
+    }
+}
